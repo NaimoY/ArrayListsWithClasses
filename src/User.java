@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public class User {
-    String firstName;
+    private String firstName;
 
-    String lastName;
+    private String lastName;
 
-    String email;
+    private String email;
 
     ArrayList<String> productsPurchased;
 
