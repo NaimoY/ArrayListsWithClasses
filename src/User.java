@@ -7,9 +7,9 @@ public class User {
 
     private String email;
 
-    ArrayList<String> productsPurchased;
+    private ArrayList<String> productsPurchased;
 
-    ArrayList<String> wishList;
+   private ArrayList<String> wishList;
 
     public User(String firstName, String lastName, String email, ArrayList<String> productsPurchased, ArrayList<String> wishList) {
         this.firstName = firstName;
